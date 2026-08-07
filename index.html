@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Logan designs embedded electronics, PCB hardware, firmware, and practical connected systems.">
+  <meta name="theme-color" content="#07110f">
+  <meta property="og:title" content="Logan — Embedded systems & electronics">
+  <meta property="og:description" content="A portfolio of practical hardware, firmware, and connected systems.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://l0g4nn.github.io/">
+  <title>Logan — Embedded systems & electronics</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-grid" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Logan, home">
+      <svg class="brand-mark" viewBox="0 0 42 42" aria-hidden="true">
+        <path d="M4 13V4h9M29 4h9v9M38 29v9h-9M13 38H4v-9"/>
+        <path d="M13 13v16h16M13 21h11"/>
+        <circle cx="29" cy="29" r="2.5"/>
+      </svg>
+      <span>LOGAN<span class="signal">_</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span><span class="sr-only">Menu</span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#toolkit">Toolkit</a>
+      <a class="nav-cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Hardware / firmware / systems</p>
+        <h1>I make ideas<br><span>work in the real world.</span></h1>
+        <p class="hero-intro">I’m Logan. I design embedded electronics and the firmware behind them—turning rough concepts into practical, testable systems.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="https://github.com/L0G4NN" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+
+      <div class="hero-board reveal" aria-label="Decorative circuit board illustration">
+        <div class="board-label">LOGAN_ELECTRONICS <span>REV 01</span></div>
+        <svg viewBox="0 0 620 500" role="img" aria-label="Stylised printed circuit board">
+          <g class="traces">
+            <path d="M0 84h106l28 28h92"/><path d="M0 378h98l42-42h100"/>
+            <path d="M620 102h-90l-44 44h-72"/><path d="M620 408h-94l-30-30h-96"/>
+            <path d="M220 0v64l34 34v62"/><path d="M404 500v-72l-34-34v-60"/>
+            <path d="M0 230h70l38 38h66"/><path d="M620 252h-86l-24-24h-68"/>
+          </g>
+          <g class="pads">
+            <circle cx="134" cy="112" r="7"/><circle cx="140" cy="336" r="7"/>
+            <circle cx="486" cy="146" r="7"/><circle cx="496" cy="378" r="7"/>
+            <circle cx="108" cy="268" r="7"/><circle cx="510" cy="228" r="7"/>
+          </g>
+          <rect class="chip" x="210" y="150" width="200" height="190" rx="8"/>
+          <g class="pins">
+            <path d="M230 134v16M260 134v16M290 134v16M320 134v16M350 134v16M380 134v16"/>
+            <path d="M230 340v16M260 340v16M290 340v16M320 340v16M350 340v16M380 340v16"/>
+            <path d="M194 174h16M194 204h16M194 234h16M194 264h16M194 294h16M194 324h16"/>
+            <path d="M410 174h16M410 204h16M410 234h16M410 264h16M410 294h16M410 324h16"/>
+          </g>
+          <text x="310" y="222" text-anchor="middle">BUILD</text>
+          <text class="chip-sub" x="310" y="254" text-anchor="middle">TEST / ITERATE</text>
+          <path class="pulse" d="M250 287h28l10-18 18 40 16-28h48"/>
+        </svg>
+        <div class="board-meta"><span>SYS: ONLINE</span><span>3V3</span><span>GND</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="about section-shell section-pad">
+      <div class="section-index reveal">01 / ABOUT</div>
+      <div class="about-content reveal">
+        <h2>From schematic<br>to working system.</h2>
+        <div class="about-copy">
+          <p>I like the point where hardware and software meet. My work spans circuit design, PCB layout, embedded C, simulation, bring-up, and the web interfaces that make a device useful.</p>
+          <p>The goal is always the same: understand the failure modes, make the design clearer, and build something that works beyond the bench.</p>
+        </div>
+      </div>
+      <div class="capability-row reveal" aria-label="Capabilities">
+        <span>PCB design</span><span>Embedded firmware</span><span>Hardware simulation</span><span>Connected devices</span>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section-shell section-pad">
+      <div class="section-heading reveal">
+        <div class="section-index">02 / SELECTED WORK</div>
+        <h2>Things I’m building.</h2>
+        <p>Practical projects shaped by real constraints, measured behaviour, and plenty of iteration.</p>
+      </div>
+
+      <article class="project project-featured reveal">
+        <div class="project-visual railway-visual" aria-hidden="true">
+          <div class="building b1"><i></i><i></i><i></i><i></i></div>
+          <div class="building b2"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="building b3"><i></i><i></i><i></i></div>
+          <div class="rail-line"></div>
+          <span class="visual-note">12V BUS</span><span class="visual-note note-right">RS-485</span>
+        </div>
+        <div class="project-body">
+          <div class="project-number">PROJECT / 001</div>
+          <h3>Smart model railway lighting</h3>
+          <p>A distributed lighting controller for model railway buildings, combining an STM32 microcontroller, RS-485 communication, address selection, and protected outputs in a compact hardware design.</p>
+          <ul class="project-tags"><li>STM32</li><li>KiCad</li><li>RS-485</li><li>Embedded C</li></ul>
+          <div class="project-state"><span></span> Prototype in development</div>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project project-card reveal">
+          <div class="project-visual sensor-visual" aria-hidden="true">
+            <div class="temperature"><span>21.6</span><small>°C</small></div>
+            <svg viewBox="0 0 320 110"><path d="M0 84 C34 82 45 61 74 63 S115 83 145 55 S194 26 224 46 S271 74 320 24"/></svg>
+            <span class="humidity">RH 48%</span>
+          </div>
+          <div class="project-body">
+            <div class="project-number">PROJECT / 002</div>
+            <h3>Connected desk monitor</h3>
+            <p>An ESP32 temperature and humidity monitor with modular ESP-IDF firmware, status indication, Wi-Fi, and a live browser interface.</p>
+            <ul class="project-tags"><li>ESP32</li><li>ESP-IDF</li><li>Wi-Fi</li><li>Web UI</li></ul>
+          </div>
+        </article>
+
+        <article class="project project-card reveal">
+          <div class="project-visual lab-visual" aria-hidden="true">
+            <div class="scope-grid"></div>
+            <svg viewBox="0 0 420 160"><path d="M0 89h55l8-2 9-42 12 84 14-71 13 31h40l12-2 11-42 13 84 14-71 13 31h56l12-2 11-42 13 84 14-71 13 31h52"/></svg>
+            <span>CH1 3.30V</span>
+          </div>
+          <div class="project-body">
+            <div class="project-number">PROJECT / 003</div>
+            <h3>Hardware validation</h3>
+          <p>Circuit simulation and design review focused on protection, switching behaviour, signal integrity, and catching problems before hardware is committed.</p>
+            <ul class="project-tags"><li>LTspice</li><li>Multisim</li><li>DRC / ERC</li><li>Debug</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="toolkit" class="toolkit section-shell section-pad">
+      <div class="section-heading reveal">
+        <div class="section-index">03 / TOOLKIT</div>
+        <h2>Across the whole stack.</h2>
+      </div>
+      <div class="tool-list reveal">
+        <div><span>01</span><h3>Hardware</h3><p>KiCad · Schematic capture · PCB layout · Power & protection · RS-485</p></div>
+        <div><span>02</span><h3>Firmware</h3><p>C · C++ · ESP-IDF · STM32 · Device drivers · Networking</p></div>
+        <div><span>03</span><h3>Validation</h3><p>LTspice · Multisim · Bring-up · Debugging · ERC / DRC</p></div>
+        <div><span>04</span><h3>Interfaces</h3><p>HTML · CSS · JavaScript · Embedded web UIs · GitHub Pages</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-shell section-pad reveal">
+      <div class="contact-inner">
+        <div class="section-index">04 / CONTACT</div>
+        <p class="contact-kicker">Have an interesting idea?</p>
+        <h2>Let’s build<br>something real.</h2>
+        <a class="button button-light" href="https://github.com/L0G4NN" target="_blank" rel="noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="contact-circuit" aria-hidden="true"><span></span><i></i><i></i><i></i></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <a class="brand footer-brand" href="#top">LOGAN<span class="signal">_</span></a>
+    <p>Designing at the intersection of hardware and code.</p>
+    <div><span>© <span id="year">2026</span> Logan</span><a href="#top">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
