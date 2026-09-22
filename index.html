@@ -1,185 +1,90 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Logan designs embedded electronics, PCB hardware, firmware, and practical connected systems.">
-  <meta name="theme-color" content="#07110f">
-  <meta property="og:title" content="Logan — Embedded systems & electronics">
-  <meta property="og:description" content="A portfolio of practical hardware, firmware, and connected systems.">
+  <meta name="description" content="Logan Noonan — Graduate Electrical Engineer in Scotland. Electrical building services, power distribution, industrial controls, and hands-on electronics projects.">
+  <meta name="theme-color" content="#f4f3ec">
+  <meta property="og:title" content="Logan Noonan — Electrical Engineer">
+  <meta property="og:description" content="From power distribution to the logic that controls it. Explore my experience in electrical design, industrial controls, and embedded systems.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://l0g4nn.github.io/">
-  <title>Logan — Embedded systems & electronics</title>
+  <title>Logan Noonan — Electrical Engineer</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script>document.documentElement.classList.add('js')</script>
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="page-grid" aria-hidden="true"></div>
-
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Logan, home">
-      <svg class="brand-mark" viewBox="0 0 42 42" aria-hidden="true">
-        <path d="M4 13V4h9M29 4h9v9M38 29v9h-9M13 38H4v-9"/>
-        <path d="M13 13v16h16M13 21h11"/>
-        <circle cx="29" cy="29" r="2.5"/>
-      </svg>
-      <span>LOGAN<span class="signal">_</span></span>
-    </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-      <span></span><span></span><span></span><span class="sr-only">Menu</span>
-    </button>
-    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#toolkit">Toolkit</a>
-      <a class="nav-cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
-    </nav>
-  </header>
-
-  <main id="main">
-    <section id="top" class="hero section-shell">
-      <div class="hero-copy reveal">
-        <p class="eyebrow"><span class="status-dot"></span> Hardware / firmware / systems</p>
-        <h1>I make ideas<br><span>work in the real world.</span></h1>
-        <p class="hero-intro">I’m Logan. I design embedded electronics and the firmware behind them—turning rough concepts into practical, testable systems.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
-          <a class="text-link" href="https://github.com/L0G4NN" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-
-      <div class="hero-board reveal" aria-label="Decorative circuit board illustration">
-        <div class="board-label">LOGAN_ELECTRONICS <span>REV 01</span></div>
-        <svg viewBox="0 0 620 500" role="img" aria-label="Stylised printed circuit board">
-          <g class="traces">
-            <path d="M0 84h106l28 28h92"/><path d="M0 378h98l42-42h100"/>
-            <path d="M620 102h-90l-44 44h-72"/><path d="M620 408h-94l-30-30h-96"/>
-            <path d="M220 0v64l34 34v62"/><path d="M404 500v-72l-34-34v-60"/>
-            <path d="M0 230h70l38 38h66"/><path d="M620 252h-86l-24-24h-68"/>
-          </g>
-          <g class="pads">
-            <circle cx="134" cy="112" r="7"/><circle cx="140" cy="336" r="7"/>
-            <circle cx="486" cy="146" r="7"/><circle cx="496" cy="378" r="7"/>
-            <circle cx="108" cy="268" r="7"/><circle cx="510" cy="228" r="7"/>
-          </g>
-          <rect class="chip" x="210" y="150" width="200" height="190" rx="8"/>
-          <g class="pins">
-            <path d="M230 134v16M260 134v16M290 134v16M320 134v16M350 134v16M380 134v16"/>
-            <path d="M230 340v16M260 340v16M290 340v16M320 340v16M350 340v16M380 340v16"/>
-            <path d="M194 174h16M194 204h16M194 234h16M194 264h16M194 294h16M194 324h16"/>
-            <path d="M410 174h16M410 204h16M410 234h16M410 264h16M410 294h16M410 324h16"/>
-          </g>
-          <text x="310" y="222" text-anchor="middle">BUILD</text>
-          <text class="chip-sub" x="310" y="254" text-anchor="middle">TEST / ITERATE</text>
-          <path class="pulse" d="M250 287h28l10-18 18 40 16-28h48"/>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header wrap">
+  <a class="brand" href="#top" aria-label="Logan Noonan, home"><span class="brand-mark" aria-hidden="true">LN<span>↗</span></span><span>LOGAN NOONAN<span class="brand-sub">ELECTRICAL ENGINEER</span></span></a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">+</span></button>
+  <nav id="site-nav" aria-label="Main navigation"><a href="#expertise">Expertise</a><a href="#work">Selected work</a><a href="#about">About</a><a class="nav-contact" href="#contact">Connect <span aria-hidden="true">↗</span></a></nav>
+</header>
+<main id="main">
+  <section class="hero wrap" id="top" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot"></span> GRADUATE ELECTRICAL ENGINEER · SCOTLAND</p>
+      <h1 id="hero-title">From power<br>to <span class="serif">possibility.</span></h1>
+      <p class="hero-intro">I’m Logan. I work on the electrical systems behind buildings and industry — with a hands-on background in controls, electronics, and code.</p>
+      <div class="hero-actions"><a class="button" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="plain-link" href="#expertise">What I work on <span aria-hidden="true">↓</span></a></div>
+      <div class="hero-foot"><span>POWER SYSTEMS</span><i aria-hidden="true">/</i><span>INDUSTRIAL CONTROL</span><i aria-hidden="true">/</i><span>EMBEDDED DESIGN</span></div>
+    </div>
+    <div class="system-panel" data-mode="power">
+      <div class="panel-heading"><span>THE CONNECTED SYSTEM</span><span class="drawing-number">LN / 01</span></div>
+      <div class="system-drawing" aria-hidden="true">
+        <svg viewBox="0 0 520 390" fill="none">
+          <defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#b4b9af" opacity=".55"/></pattern></defs>
+          <rect width="520" height="390" fill="url(#grid)"/>
+          <g class="network-base" stroke="#adb7ad" stroke-width="1.5"><path d="M260 55V91M260 139V182M112 182H408M112 182V239M260 182V239M408 182V239M112 285V321H408V285M260 285V321M260 321V348"/><path d="M249 348H271M253 354H267M257 360H263"/></g>
+          <g class="power-path" stroke="#d8542c" stroke-width="2"><path d="M260 55V91M260 139V182H112V239M260 182H408V239M260 182V239"/></g>
+          <g class="control-path" stroke="#d8542c" stroke-width="2" stroke-dasharray="5 5"><path d="M112 285V321H408V285M260 285V321"/></g>
+          <g class="source"><circle cx="260" cy="39" r="16" stroke="currentColor" stroke-width="1.5"/><path d="M248 39C252 23 268 55 272 39" stroke="currentColor" stroke-width="1.5"/></g>
+          <text x="289" y="43" class="svg-label">SUPPLY</text>
+          <g class="transformer" stroke="currentColor" stroke-width="1.5"><circle cx="260" cy="109" r="18" fill="#f4f3ec"/><circle cx="260" cy="122" r="18" fill="#f4f3ec" fill-opacity=".6"/></g>
+          <text x="294" y="119" class="svg-label">TRANSFORM</text>
+          <circle class="flow-dot" cx="260" cy="168" r="4" fill="#d8542c"/>
+          <text x="126" y="171" class="svg-small">DISTRIBUTE</text>
+          <g class="node node-power"><rect x="74" y="239" width="76" height="46" rx="3"/><path d="M99 263H107L112 251L118 273L123 261H131"/><text x="112" y="308">POWER</text></g>
+          <g class="node node-control"><rect x="222" y="239" width="76" height="46" rx="3"/><path d="M235 267H247V255H260V267H273V255H286"/><text x="260" y="308">CONTROL</text></g>
+          <g class="node node-embedded"><rect x="370" y="239" width="76" height="46" rx="3"/><rect x="399" y="253" width="18" height="18"/><path d="M403 248V253M412 248V253M403 271V276M412 271V276M394 258H399M394 266H399M417 258H422M417 266H422"/><text x="408" y="308">EMBEDDED</text></g>
+          <text x="25" y="371" class="svg-small">CONCEPTUAL SYSTEM MAP</text><text x="439" y="371" class="svg-small">N.T.S.</text>
         </svg>
-        <div class="board-meta"><span>SYS: ONLINE</span><span>3V3</span><span>GND</span></div>
       </div>
-    </section>
+      <div class="system-tabs" role="group" aria-label="Explore engineering disciplines"><button type="button" data-mode="power" aria-pressed="true">01 Power</button><button type="button" data-mode="control" aria-pressed="false">02 Control</button><button type="button" data-mode="embedded" aria-pressed="false">03 Embedded</button></div>
+      <p class="system-caption" aria-live="polite">Designing the path from supply to load.</p>
+    </div>
+  </section>
+  <div class="intro-strip"><div class="wrap"><p>A systems perspective.<br><strong>A practical approach.</strong></p><p>Electrical &amp; Electronic Engineering<br><strong>BEng (Hons), University of Strathclyde</strong></p><p>Current focus<br><strong>Electrical building services &amp; infrastructure</strong></p></div></div>
 
-    <section id="about" class="about section-shell section-pad">
-      <div class="section-index reveal">01 / ABOUT</div>
-      <div class="about-content reveal">
-        <h2>From schematic<br>to working system.</h2>
-        <div class="about-copy">
-          <p>I like the point where hardware and software meet. My work spans circuit design, PCB layout, embedded C, simulation, bring-up, and the web interfaces that make a device useful.</p>
-          <p>The goal is always the same: understand the failure modes, make the design clearer, and build something that works beyond the bench.</p>
-        </div>
-      </div>
-      <div class="capability-row reveal" aria-label="Capabilities">
-        <span>PCB design</span><span>Embedded firmware</span><span>Hardware simulation</span><span>Connected devices</span>
-      </div>
-    </section>
+  <section class="expertise wrap section-pad" id="expertise" aria-labelledby="expertise-title">
+    <div class="section-top"><p class="eyebrow">01 / AREAS OF PRACTICE</p><span class="micro">THE BIG PICTURE, DOWN TO THE DETAIL</span></div>
+    <div class="section-heading"><h2 id="expertise-title">Different scales.<br><span class="serif">The same curiosity.</span></h2><p>My experience connects electrical design with the control logic and hardware that make systems work.</p></div>
+    <div class="expertise-grid">
+      <article class="expertise-card"><span class="card-index">01</span><svg class="line-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 4V14M10 25H38M10 25V40M24 25V40M38 25V40M24 14V25M4 40H16M18 40H30M32 40H44"/><circle cx="24" cy="14" r="5"/></svg><h3>Power &amp;<br>building services</h3><p>Contributing to electrical infrastructure design, from calculations and drawings to how a space is lit and powered.</p><ul><li>MV &amp; LV distribution drawings</li><li>Cable sizing &amp; calculations</li><li>Arc-flash work &amp; earthing</li><li>Lighting design with Relux</li></ul><span class="card-footer">CURRENT PROFESSIONAL FOCUS</span></article>
+      <article class="expertise-card"><span class="card-index">02</span><svg class="line-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="5" y="8" width="38" height="29" rx="2"/><path d="M11 28H18V17H27V28H36M17 43H31M24 37V43"/></svg><h3>Industrial<br>control systems</h3><p>Practical controls experience on industrial refrigeration plants, connecting software, operator interfaces, and equipment.</p><ul><li>PLC logic &amp; plant sequencing</li><li>HMI / SCADA development</li><li>Modbus, Ethernet &amp; OPC</li><li>Testing &amp; commissioning support</li></ul><span class="card-footer">INDUSTRY EXPERIENCE</span></article>
+      <article class="expertise-card"><span class="card-index">03</span><svg class="line-icon" viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="12" y="12" width="24" height="24" rx="2"/><path d="M19 4V12M29 4V12M19 36V44M29 36V44M4 19H12M4 29H12M36 19H44M36 29H44M19 19H29V29H19Z"/></svg><h3>Embedded<br>electronics</h3><p>Hands-on projects that bring together circuit design, firmware, sensing, and real-time behaviour.</p><ul><li>ESP32 &amp; STM32 development</li><li>C / C++ &amp; FreeRTOS</li><li>PCB design with KiCad</li><li>Sensors &amp; device communication</li></ul><span class="card-footer">ACADEMIC &amp; PERSONAL PROJECTS</span></article>
+    </div>
+  </section>
 
-    <section id="projects" class="projects section-shell section-pad">
-      <div class="section-heading reveal">
-        <div class="section-index">02 / SELECTED WORK</div>
-        <h2>Things I’m building.</h2>
-        <p>Practical projects shaped by real constraints, measured behaviour, and plenty of iteration.</p>
-      </div>
+  <section class="work-section" id="work" aria-labelledby="work-title"><div class="wrap section-pad">
+    <div class="section-top"><p class="eyebrow">02 / SELECTED WORK</p><span class="micro">EXPLORE · BUILD · UNDERSTAND</span></div>
+    <div class="section-heading"><h2 id="work-title">Theory, meet<br><span class="serif">the real world.</span></h2><p>A selection of academic and personal projects — investigating signals, building autonomous behaviour, and designing small systems.</p></div>
+    <article class="featured-project">
+      <div class="radar-visual" aria-hidden="true"><span class="visual-label">FIELD NOTES / 001</span><svg viewBox="0 0 560 370" fill="none"><g stroke="#8da39a" opacity=".28"><circle cx="277" cy="196" r="48"/><circle cx="277" cy="196" r="95"/><circle cx="277" cy="196" r="142"/><path d="M277 25V364M106 196H448M157 76L397 316M157 316L397 76"/></g><path d="M277 196L407 135A145 145 0 0 0 323 58Z" fill="#d4e5b1" opacity=".09"/><path d="M277 196L407 135" stroke="#d5e7b8" stroke-width="1.5"/><path d="M104 292L361 128L277 196L104 292" stroke="#d5e7b8" stroke-dasharray="5 6" opacity=".6"/><circle cx="361" cy="128" r="6" fill="#ed8258"/><circle cx="361" cy="128" r="14" stroke="#ed8258" opacity=".4"/><circle cx="277" cy="196" r="5" fill="#d5e7b8"/><path d="M95 302L104 282L113 302M99 295H109" stroke="#d5e7b8" stroke-width="2"/><g fill="#c1ccc2" font-family="monospace" font-size="11"><text x="118" y="318">ILLUMINATOR</text><text x="292" y="217">RECEIVER</text><text x="379" y="121">TARGET</text></g></svg><div class="visual-bottom"><span>PASSIVE BISTATIC RADAR</span><span>CONCEPT GEOMETRY</span></div></div>
+      <div class="featured-copy"><p class="project-kind">DISSERTATION / FEASIBILITY STUDY</p><h3>Listening to the sky.</h3><p class="project-subtitle">Passive radar for Glasgow airspace</p><p>Could an existing over-the-horizon transmission be used to detect aircraft near Glasgow? A study of passive bistatic radar, bringing together propagation, geometry, and signal processing.</p><div class="tags"><span>Link budgets</span><span>Signal processing</span><span>MATLAB</span></div><details><summary>Inside the project <span aria-hidden="true">+</span></summary><div class="detail-copy"><p>I investigated a non-cooperative illuminator, estimated received signal levels and target returns, and explored matched filtering and pulse integration.</p><p>The work was a feasibility study: assessing the assumptions and detection constraints, rather than claiming an operational aircraft-tracking system.</p></div></details></div>
+    </article>
+    <div class="project-grid">
+      <article class="project-card"><div class="small-visual robot-visual" aria-hidden="true"><span class="visual-label">002 / AUTONOMY</span><svg viewBox="0 0 360 200" fill="none"><path d="M48 151H98Q124 151 124 125V99Q124 73 150 73H247" stroke="#84978f" stroke-width="2" stroke-dasharray="4 7"/><circle cx="254" cy="73" r="9" stroke="#d8542c" stroke-width="2"/><circle cx="254" cy="73" r="3" fill="#d8542c"/><g transform="translate(118 109) rotate(-25)"><rect x="-26" y="-31" width="52" height="62" rx="9" fill="#f4f3ec" stroke="#243d33" stroke-width="2"/><path d="M-30 -20V-5M30 -20V-5M-30 9V24M30 9V24" stroke="#243d33" stroke-width="6"/><circle cx="-10" cy="-15" r="5" stroke="#243d33"/><circle cx="10" cy="-15" r="5" stroke="#243d33"/><path d="M-11 12H11M0 1V23" stroke="#d8542c"/></g><path d="M159 40Q201 56 187 95M174 24Q225 47 211 99" stroke="#9baa9e"/></svg></div><div class="project-card-body"><p class="project-kind">ACADEMIC PROJECT</p><h3>Autonomous collection robot</h3><p>An ESP32-based robot connecting sensing, navigation, and a collection mechanism through a real-time state machine.</p><div class="tags"><span>ESP32</span><span>FreeRTOS</span><span>I²C</span></div><details><summary>Inside the project <span aria-hidden="true">+</span></summary><div class="detail-copy"><p>Coordinated ultrasonic sensing, steering, motor control, and a magnetic collector. An ESP32-S3 camera unit communicated over I²C, bringing vision and control tasks together.</p><p>Focus: turning sensor inputs into predictable behaviour, with explicit states for approach, identification, and collection.</p></div></details></div></article>
+      <article class="project-card"><div class="small-visual fractal-visual" aria-hidden="true"><span class="visual-label">003 / COMPUTATION</span><svg viewBox="0 0 360 200" fill="none"><g stroke="#b8c6ba" stroke-width="1.5"><path d="M180 30L260 170H100Z"/><path d="M140 100H220L180 170Z"/><path d="M160 65H200L180 100ZM120 135H160L140 170ZM200 135H240L220 170Z"/><path d="M170 48H190L180 65ZM150 83H170L160 100ZM190 83H210L200 100ZM110 153H130L120 170ZM150 153H170L160 170ZM210 153H230L220 170ZM230 153H250L240 170Z"/></g><path d="M180 30L220 100H140Z" stroke="#ed8258" stroke-width="1.5"/></svg></div><div class="project-card-body"><p class="project-kind">ACADEMIC PROJECT</p><h3>FPGA fractal visualisation</h3><p>Exploring hardware acceleration through fractal generation, with a Python and Jupyter interface for experimentation.</p><div class="tags"><span>FPGA</span><span>Python</span><span>Jupyter</span></div><details><summary>Inside the project <span aria-hidden="true">+</span></summary><div class="detail-copy"><p>Used programmable logic to explore the relationship between mathematical computation and hardware implementation.</p><p>The project connected FPGA-based processing with a software interface, developing an understanding of how work can be shared between hardware and software.</p></div></details></div></article>
+      <article class="project-card"><div class="small-visual railway-visual" aria-hidden="true"><span class="visual-label">004 / SMALL-SCALE SYSTEMS</span><svg viewBox="0 0 360 200" fill="none"><g stroke="#50695e" stroke-width="1.5"><path d="M66 151V91L103 65L140 91V151M159 151V63H216V151M236 151V104L266 81L296 104V151M48 151H312M48 169H312"/></g><g fill="#dba96c"><path d="M80 103H94V121H80ZM112 103H126V121H112ZM173 79H185V95H173ZM194 79H206V95H194ZM173 109H185V125H173ZM194 109H206V125H194ZM249 112H261V130H249ZM275 112H287V130H275Z"/></g><path d="M103 151V169M188 151V169M266 151V169" stroke="#d8542c" stroke-width="2"/><g fill="#d8542c"><circle cx="103" cy="169" r="3"/><circle cx="188" cy="169" r="3"/><circle cx="266" cy="169" r="3"/></g></svg></div><div class="project-card-body"><p class="project-kind">PERSONAL PROJECT · IN DEVELOPMENT</p><h3>Model railway lighting</h3><p>A compact controller per building, combining shared 5 V power, LED switching, and a distributed communications bus.</p><div class="tags"><span>STM32</span><span>KiCad</span><span>RS-485</span></div><details><summary>Inside the project <span aria-hidden="true">+</span></summary><div class="detail-copy"><p>The design uses an STM32C011, 3.3 V regulation, low-side MOSFET LED switching, and local mode selection.</p><p>Focus: compact hardware, sensible power distribution, and repeatable control across multiple model buildings. Hardware and firmware remain in development.</p></div></details></div></article>
+    </div>
+  </div></section>
 
-      <article class="project project-featured reveal">
-        <div class="project-visual railway-visual" aria-hidden="true">
-          <div class="building b1"><i></i><i></i><i></i><i></i></div>
-          <div class="building b2"><i></i><i></i><i></i><i></i><i></i><i></i></div>
-          <div class="building b3"><i></i><i></i><i></i></div>
-          <div class="rail-line"></div>
-          <span class="visual-note">12V BUS</span><span class="visual-note note-right">RS-485</span>
-        </div>
-        <div class="project-body">
-          <div class="project-number">PROJECT / 001</div>
-          <h3>Smart model railway lighting</h3>
-          <p>A distributed lighting controller for model railway buildings, combining an STM32 microcontroller, RS-485 communication, address selection, and protected outputs in a compact hardware design.</p>
-          <ul class="project-tags"><li>STM32</li><li>KiCad</li><li>RS-485</li><li>Embedded C</li></ul>
-          <div class="project-state"><span></span> Prototype in development</div>
-        </div>
-      </article>
+  <section class="about wrap section-pad" id="about" aria-labelledby="about-title"><div class="section-top"><p class="eyebrow">03 / THE ENGINEER BEHIND THE WORK</p><span class="micro">BASED IN SCOTLAND</span></div><div class="about-grid"><div><h2 id="about-title">Curious by nature.<br><span class="serif">Practical by training.</span></h2><p class="about-lead">I’m a graduate electrical engineer with a BEng (Hons) in Electrical &amp; Electronic Engineering from the University of Strathclyde.</p><p>My current work sits in electrical building services and infrastructure: cable calculations, lighting, MV and LV drawings, arc-flash work, and earthing. It’s a field that brings analysis together with real constraints — space, coordination, maintainability, and reliability.</p><p>Before that, I gained hands-on industrial controls experience during an internship in refrigeration engineering. Working with PLCs, HMIs, and plant communications helped me understand what happens between a design on paper and equipment in operation.</p><p>Outside work, I keep building. Embedded electronics, robotics, and PCB projects give me space to experiment and keep learning from the detail.</p></div><aside class="trajectory" aria-label="Experience and development"><p class="eyebrow">A DEVELOPING PRACTICE</p><div class="trajectory-item"><span class="timeline-dot"></span><p class="micro">NOW</p><h3>Graduate Electrical Engineer</h3><p>Electrical building services &amp; infrastructure design.</p></div><div class="trajectory-item"><span class="timeline-dot"></span><p class="micro">INDUSTRY FOUNDATION</p><h3>Control Engineering Intern</h3><p>Industrial refrigeration, automation, and commissioning support.</p></div><div class="trajectory-item"><span class="timeline-dot"></span><p class="micro">EDUCATION</p><h3>BEng (Hons)</h3><p>Electrical &amp; Electronic Engineering<br>University of Strathclyde</p></div><div class="development-note"><span aria-hidden="true">↗</span><p><strong>Always building on the fundamentals.</strong><br>Deepening my power systems knowledge and working towards chartership through the IET.</p></div></aside></div></section>
 
-      <div class="project-grid">
-        <article class="project project-card reveal">
-          <div class="project-visual sensor-visual" aria-hidden="true">
-            <div class="temperature"><span>21.6</span><small>°C</small></div>
-            <svg viewBox="0 0 320 110"><path d="M0 84 C34 82 45 61 74 63 S115 83 145 55 S194 26 224 46 S271 74 320 24"/></svg>
-            <span class="humidity">RH 48%</span>
-          </div>
-          <div class="project-body">
-            <div class="project-number">PROJECT / 002</div>
-            <h3>Connected desk monitor</h3>
-            <p>An ESP32 temperature and humidity monitor with modular ESP-IDF firmware, status indication, Wi-Fi, and a live browser interface.</p>
-            <ul class="project-tags"><li>ESP32</li><li>ESP-IDF</li><li>Wi-Fi</li><li>Web UI</li></ul>
-          </div>
-        </article>
-
-        <article class="project project-card reveal">
-          <div class="project-visual lab-visual" aria-hidden="true">
-            <div class="scope-grid"></div>
-            <svg viewBox="0 0 420 160"><path d="M0 89h55l8-2 9-42 12 84 14-71 13 31h40l12-2 11-42 13 84 14-71 13 31h56l12-2 11-42 13 84 14-71 13 31h52"/></svg>
-            <span>CH1 3.30V</span>
-          </div>
-          <div class="project-body">
-            <div class="project-number">PROJECT / 003</div>
-            <h3>Hardware validation</h3>
-          <p>Circuit simulation and design review focused on protection, switching behaviour, signal integrity, and catching problems before hardware is committed.</p>
-            <ul class="project-tags"><li>LTspice</li><li>Multisim</li><li>DRC / ERC</li><li>Debug</li></ul>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="toolkit" class="toolkit section-shell section-pad">
-      <div class="section-heading reveal">
-        <div class="section-index">03 / TOOLKIT</div>
-        <h2>Across the whole stack.</h2>
-      </div>
-      <div class="tool-list reveal">
-        <div><span>01</span><h3>Hardware</h3><p>KiCad · Schematic capture · PCB layout · Power & protection · RS-485</p></div>
-        <div><span>02</span><h3>Firmware</h3><p>C · C++ · ESP-IDF · STM32 · Device drivers · Networking</p></div>
-        <div><span>03</span><h3>Validation</h3><p>LTspice · Multisim · Bring-up · Debugging · ERC / DRC</p></div>
-        <div><span>04</span><h3>Interfaces</h3><p>HTML · CSS · JavaScript · Embedded web UIs · GitHub Pages</p></div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact section-shell section-pad reveal">
-      <div class="contact-inner">
-        <div class="section-index">04 / CONTACT</div>
-        <p class="contact-kicker">Have an interesting idea?</p>
-        <h2>Let’s build<br>something real.</h2>
-        <a class="button button-light" href="https://github.com/L0G4NN" target="_blank" rel="noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a>
-      </div>
-      <div class="contact-circuit" aria-hidden="true"><span></span><i></i><i></i><i></i></div>
-    </section>
-  </main>
-
-  <footer class="site-footer section-shell">
-    <a class="brand footer-brand" href="#top">LOGAN<span class="signal">_</span></a>
-    <p>Designing at the intersection of hardware and code.</p>
-    <div><span>© <span id="year">2026</span> Logan</span><a href="#top">Back to top ↑</a></div>
-  </footer>
+  <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap contact-inner"><div><p class="eyebrow">04 / KEEP IN TOUCH</p><h2 id="contact-title">Good engineering starts<br>with <span class="serif">a conversation.</span></h2><p>Interested in electrical systems, controls, or making an idea work?<br>You can find me on GitHub.</p></div><a class="button contact-button" href="https://github.com/L0G4NN" target="_blank" rel="noopener noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a></div></section>
+</main>
+<footer class="wrap site-footer"><a href="#top" class="footer-name">LOGAN NOONAN<span class="footer-dot">.</span></a><p>Electrical engineering. From the system to the detail.</p><a href="#top">Back to top ↑</a><span class="copyright">© <span id="year">2026</span> Logan Noonan</span></footer>
 </body>
 </html>
