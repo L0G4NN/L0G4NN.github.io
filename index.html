@@ -3,43 +3,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#ffffff">
-  <title>Logan — Engineer</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: #fff;
-      color: #24292f;
-      font-family: "ABC Areal Mono", "Areal Mono", ui-monospace, "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-      line-height: 1.6;
-    }
-    main {
-      max-width: 720px;
-      margin: clamp(40px, 10vh, 96px) auto;
-      padding: 0 24px;
-    }
-    h1 {
-      margin: 0 0 24px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid #d8dee4;
-      font-size: clamp(28px, 5vw, 36px);
-      font-weight: 600;
-      line-height: 1.25;
-    }
-    h2 {
-      margin: 0;
-      font-size: 20px;
-      font-weight: 400;
-      line-height: 1.5;
-    }
-    .marker { color: #6e7781; }
-  </style>
+  <meta name="description" content="Logan's personal homepage. Electrical engineering, industrial controls, electronics, and things built along the way.">
+  <meta name="theme-color" content="#163c66">
+  <title>Logan's Homepage :: Engineer &amp; Tinkerer</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <main>
-    <h1><span class="marker" aria-hidden="true"># </span>Logan</h1>
-    <h2><span class="marker" aria-hidden="true">## </span>Engineer</h2>
-  </main>
+<body id="top">
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="site">
+    <header>
+      <div class="window-bar"><span>home / logan / index.html</span><span aria-hidden="true">[ _ ] [ □ ] [ × ]</span></div>
+      <div class="masthead">
+        <svg class="computer" viewBox="0 0 88 80" aria-hidden="true" shape-rendering="crispEdges">
+          <path d="M8 3H74V53H8Z" fill="#d7dedc" stroke="#0d223a" stroke-width="3"/>
+          <path d="M15 10H67V43H15Z" fill="#102e40"/>
+          <path d="M20 27H29L34 17L42 36L49 24H62" fill="none" stroke="#99e9a7" stroke-width="3"/>
+          <path d="M32 54H50V62H32ZM10 63H75L83 75H2Z" fill="#d7dedc" stroke="#0d223a" stroke-width="3"/>
+          <path d="M13 68H68M17 72H73" stroke="#7d8f96" stroke-width="2"/>
+          <path d="M59 48H65" stroke="#648064" stroke-width="2"/>
+        </svg>
+        <div><p class="small-label">WELCOME TO MY CORNER OF THE WEB</p><h1>Logan's Homepage<span aria-hidden="true">_</span></h1><p class="tagline">Electrical engineer. Occasional programmer. Serial tinkerer.</p></div>
+      </div>
+      <nav class="top-nav" aria-label="Main navigation"><a href="#welcome">Home</a><span aria-hidden="true">|</span><a href="#about">About me</a><span aria-hidden="true">|</span><a href="#projects">Projects</a><span aria-hidden="true">|</span><a href="#links">Links</a></nav>
+    </header>
+
+    <div class="columns">
+      <aside class="sidebar" aria-label="Homepage directory">
+        <section class="box directory"><h2>Site directory</h2><nav aria-label="Section directory"><a href="#welcome"><span aria-hidden="true">▸</span> Welcome</a><a href="#about"><span aria-hidden="true">▸</span> About me</a><a href="#work"><span aria-hidden="true">▸</span> Engineering</a><a href="#projects"><span aria-hidden="true">▸</span> Project folder</a><a href="#off-duty"><span aria-hidden="true">▸</span> Off the clock</a><a href="#links"><span aria-hidden="true">▸</span> Links</a></nav></section>
+        <section class="box quick-facts"><h2>Quick facts</h2><dl><dt>Name</dt><dd>Logan</dd><dt>Based in</dt><dd>Scotland</dd><dt>Day job</dt><dd>Electrical engineer</dd><dt>Usually thinking about</dt><dd>How things work</dd></dl></section>
+        <section class="box notebook"><h2>On my desk</h2><p>Power systems notes,<br>lighting calculations,<br>and another PCB idea.</p><p class="note-date">CURRENT INTERESTS / 2026</p></section>
+        <div class="web-buttons" aria-label="Site badges"><span class="web-button"><b>100%</b><span>PERSONAL SITE</span></span><span class="web-button green"><b>⚡</b><span>POWERED BY<br>CURIOSITY</span></span><span class="web-button cream"><b>&lt;/&gt;</b><span>PLAIN OLD<br>HTML + CSS</span></span></div>
+        <p class="sidebar-note">Best viewed with<br>a curious mind.</p>
+      </aside>
+
+      <main id="content">
+        <section class="box welcome" id="welcome"><h2><span aria-hidden="true">★</span> Welcome, traveller</h2><div class="box-body"><p class="intro">Hello! I'm Logan.</p><p>I'm an electrical engineer based in Scotland, interested in everything from the systems that power a building to the small bits of code that make a circuit do something useful.</p><p>This is my little home on the internet: a place for engineering, electronics, projects, and the occasional tangent.</p><div class="welcome-note"><span class="new-label">NEW</span><span>The homepage has gone back to basics. Have a look around.</span></div></div></section>
+
+        <section class="box" id="about"><h2>01. About me</h2><div class="box-body"><p>I have a BEng (Hons) in Electrical &amp; Electronic Engineering and work as a graduate electrical engineer. My current focus is electrical building services and infrastructure.</p><p>Before moving into electrical design, I gained practical experience in industrial refrigeration controls: PLC programming, operator interfaces, plant communications, testing, and commissioning support.</p><p>I like understanding a system from both ends — the calculations and drawings that define it, and the hardware and software that make it work.</p></div></section>
+
+        <section class="box" id="work"><h2>02. Engineering &amp; other useful things</h2><div class="box-body"><p>Most of my work and projects fit somewhere in these three columns:</p><div class="skills-grid"><section><h3>Power &amp; buildings</h3><ul><li>MV / LV drawings</li><li>Cable calculations</li><li>Lighting design</li><li>Earthing</li><li>Arc-flash work</li></ul><p class="category-note">Current professional focus</p></section><section><h3>Industrial controls</h3><ul><li>PLC logic</li><li>HMI / SCADA</li><li>Plant sequencing</li><li>Modbus &amp; OPC</li><li>Commissioning support</li></ul><p class="category-note">Practical industry experience</p></section><section><h3>Electronics &amp; code</h3><ul><li>ESP32 / STM32</li><li>C / C++</li><li>FreeRTOS</li><li>PCB design</li><li>Sensors &amp; I²C</li></ul><p class="category-note">Academic &amp; personal projects</p></section></div><p class="footnote">Still learning: power systems analysis, protection coordination, and the details that turn a calculation into a useful design.</p></div></section>
+
+        <section class="box projects" id="projects"><h2>03. The project folder</h2><div class="box-body"><p>A few things I've spent time building or figuring out. Click a project title for the longer version.</p>
+          <details><summary><span class="file-icon" aria-hidden="true">RF</span><span>Passive radar for Glasgow airspace<small>Academic dissertation · Feasibility study</small></span></summary><div class="project-detail"><p>Could an existing over-the-horizon transmission help detect aircraft near Glasgow? I investigated a passive bistatic radar concept using a non-cooperative illuminator.</p><p>The study brought together propagation, transmitter–target–receiver geometry, link budgets, matched filtering, and pulse integration. The focus was feasibility and detection constraints, rather than an operational tracking system.</p><p class="keywords">RADAR / SIGNAL PROCESSING / LINK BUDGETS</p></div></details>
+          <details><summary><span class="file-icon" aria-hidden="true">µC</span><span>Autonomous collection robot<small>Academic project · Embedded control</small></span></summary><div class="project-detail"><p>An ESP32-based robot combining ultrasonic sensing, steering, motor control, and a magnetic collection mechanism.</p><p>FreeRTOS and an explicit state machine coordinated approach, identification, and collection. A separate ESP32-S3 camera unit communicated over I²C to connect vision with the main controller.</p><p class="keywords">ESP32 / FREERTOS / I²C / ROBOTICS</p></div></details>
+          <details><summary><span class="file-icon" aria-hidden="true">FP</span><span>FPGA fractal visualisation<small>Academic project · Hardware acceleration</small></span></summary><div class="project-detail"><p>Exploring fractal computation in programmable logic, with a Python and Jupyter interface for experimentation.</p><p>A useful meeting point between mathematics, hardware architecture, and software: deciding where each part of the work should happen.</p><p class="keywords">FPGA / PYTHON / JUPYTER</p></div></details>
+          <details><summary><span class="file-icon" aria-hidden="true">LED</span><span>Model railway lighting controller<small>Personal project · In development</small></span></summary><div class="project-detail"><p>A small controller for each model building, running from shared 5 V power and using an STM32 microcontroller to switch its lighting.</p><p>The design brings together 3.3 V regulation, MOSFET LED switching, local mode selection, and an RS-485 bus. The aim is a compact, repeatable way to control lighting across a layout.</p><p class="keywords">STM32 / PCB DESIGN / RS-485 / LEDS</p></div></details>
+        </div></section>
+
+        <section class="box" id="off-duty"><h2>04. Away from the schematic</h2><div class="box-body"><p>Outside engineering, I'm into motorsport, rockets, model railways, and PC gaming. The common thread is probably an interest in how things work — or how to make them go a little faster.</p><p>I tend to have an electronics idea on the go, even when the sensible thing would be to finish the last one first.</p></div></section>
+
+        <section class="box" id="links"><h2>05. Elsewhere on the web</h2><div class="box-body"><ul class="link-list"><li><a href="https://github.com/L0G4NN">My GitHub profile</a> <span>— code, experiments, and this website.</span></li></ul><p>Thanks for stopping by. Come back sometime.</p><p class="back-top"><a href="#top">↑ Back to the top</a></p></div></section>
+      </main>
+    </div>
+    <footer><p>Logan's Homepage <span aria-hidden="true">·</span> Made for the web, like it used to be.</p><p class="footer-small">Last updated: <time datetime="2026-09-23">23 September 2026</time> <span aria-hidden="true">|</span> No cookies. No tracking. Just a website.</p></footer>
+  </div>
 </body>
 </html>
