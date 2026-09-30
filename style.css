@@ -4,52 +4,52 @@
 html { scroll-padding-top: 20px; }
 body {
   margin: 0;
-  background-color: #164b22;
-  background-image: url("background.svg");
-  color: #fff;
+  background-color: #18283b;
+  background-image: url("background.svg?v=blue1");
+  color: #f1eadb;
   font-family: "ABC Areal Mono", "Areal Mono", "Courier New", monospace;
   font-size: 17px;
   line-height: 1.65;
   text-align: center;
 }
 .page { width: min(740px, calc(100% - 36px)); margin: 0 auto; padding: 22px 0 32px; }
-a { color: #ffff69; text-decoration: underline; }
-a:visited { color: #ffd5ff; }
-a:hover { color: #fff; }
-a:focus-visible { outline: 3px solid #fff; outline-offset: 5px; }
+a { color: #b9d5ef; text-decoration: underline; }
+a:visited { color: #cfbcdf; }
+a:hover { color: #f1eadb; }
+a:focus-visible { outline: 3px solid #f1eadb; outline-offset: 5px; }
 .welcome { font-size: 14px; font-weight: bold; margin: 12px 0 6px; }
-h1 { font-family: "Times New Roman", serif; font-size: clamp(76px, 15vw, 112px); color: #ffec00; line-height: 1.1; margin: 0; text-shadow: 3px 3px #071f0b; }
+h1 { font-family: "Times New Roman", serif; font-size: clamp(76px, 15vw, 112px); color: #e6bc73; line-height: 1.1; margin: 0; text-shadow: 3px 3px #0c1725; }
 .subtitle { font-family: "Times New Roman", serif; font-size: 36px; font-weight: bold; margin: 3px 0 0; }
 .location { margin: 0 0 24px; font-size: 16px; }
-hr { height: 5px; border: 0; border-top: 2px solid #c6d9bd; border-bottom: 2px solid #071f0b; margin: 26px 0; }
+hr { height: 5px; border: 0; border-top: 2px solid #7e91a5; border-bottom: 2px solid #0c1725; margin: 26px 0; }
 nav { font-size: 15px; font-weight: bold; line-height: 2; }
-nav span { margin: 0 9px; color: white; }
+nav span { margin: 0 9px; color: #f1eadb; }
 header hr { margin: 14px 0; }
-.picture { max-width: 450px; margin: 34px auto 24px; border: 7px ridge #d1d1aa; background: #072d19; }
+.picture { max-width: 450px; margin: 34px auto 24px; border: 7px ridge #b6a88e; background: #101e2e; }
 .picture svg { display: block; width: 100%; height: auto; }
-.hello { color: #ffff69; font-size: 22px; font-weight: bold; line-height: 1.5; margin: 22px 0 38px; }
-h2 { font-family: "Times New Roman", serif; font-size: 38px; color: #ffec00; line-height: 1.2; margin: 24px 0; }
+.hello { color: #b9d5ef; font-size: 22px; font-weight: bold; line-height: 1.5; margin: 22px 0 38px; }
+h2 { font-family: "Times New Roman", serif; font-size: 38px; color: #e6bc73; line-height: 1.2; margin: 24px 0; }
 p { margin: 20px 0; }
 section { padding: 0 16px 12px; }
 section > p, article { max-width: 650px; margin-left: auto; margin-right: auto; }
-table { border: 5px ridge #c1cba9; border-spacing: 4px; width: 100%; margin: 0 auto 20px; font-size: 15px; background: #0d3516; }
+table { border: 5px ridge #8798a9; border-spacing: 4px; width: 100%; margin: 0 auto 20px; font-size: 15px; background: #122033; }
 caption { padding: 0 0 15px; }
-th, td { border: 1px solid #aebc99; padding: 17px 14px; }
-th { width: 39%; color: #ffff69; }
+th, td { border: 1px solid #63788e; padding: 17px 14px; }
+th { width: 39%; color: #b9d5ef; }
 td { text-align: left; }
 .project-intro { margin-bottom: 35px; }
-h3 { font-size: 21px; color: #ffff69; text-decoration: underline; line-height: 1.4; margin: 24px 0 6px; }
-.project-type { font-size: 13px; color: #d9e4d2; margin: 0 0 20px; }
-.divider { color: #ffec00; font-size: 24px; margin: 28px 0; }
-.github-link { display: inline-block; background: #eee8c8; color: #0000b5; font-family: "Times New Roman", serif; font-size: 27px; font-weight: bold; padding: 8px 22px; border: 6px outset #eee8c8; }
-.github-link:visited { color: #681891; }
-.github-link:hover { background: #fff6cc; }
+h3 { font-size: 21px; color: #b9d5ef; text-decoration: underline; line-height: 1.4; margin: 24px 0 6px; }
+.project-type { font-size: 13px; color: #bac6d3; margin: 0 0 20px; }
+.divider { color: #e6bc73; font-size: 24px; margin: 28px 0; }
+.github-link { display: inline-block; background: #e6d8ba; color: #193a60; font-family: "Times New Roman", serif; font-size: 27px; font-weight: bold; padding: 8px 22px; border: 6px outset #e6d8ba; }
+.github-link:visited { color: #604273; }
+.github-link:hover { background: #f4e7cb; }
 .github-link:active { border-style: inset; }
-.thanks { color: #ffec00; font-size: 24px; font-weight: bold; }
+.thanks { color: #e6bc73; font-size: 24px; font-weight: bold; }
 .badges { margin: 30px 0 24px; }
-.badges span { display: inline-block; vertical-align: middle; width: 88px; padding: 2px; border: 3px outset #bbb; background: #dedede; color: #152748; font: 10px/1.2 "Courier New", monospace; }
-.badges span:nth-child(2) { background: #14265a; color: white; }
-.badges span:nth-child(3) { background: #ffec00; color: #173f1e; }
+.badges span { display: inline-block; vertical-align: middle; width: 88px; padding: 2px; border: 3px outset #9eabb9; background: #ddd6c8; color: #19334f; font: 10px/1.2 "Courier New", monospace; }
+.badges span:nth-child(2) { background: #263e58; color: #f1eadb; }
+.badges span:nth-child(3) { background: #e6bc73; color: #192b40; }
 .updated { font-size: 12px; }
 .skip { position: absolute; top: -100px; left: 8px; padding: 8px; background: #000; }
 .skip:focus { top: 8px; }

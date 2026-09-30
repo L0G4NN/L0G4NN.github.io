@@ -1,6 +1,6 @@
 # Logan's personal website
 
-A simple personal homepage with a homemade, early-2000s school-project style: green tiled background, large headings, centred text, a basic table and underlined links.
+A simple personal homepage with a homemade, early-2000s school-project style: midnight-blue tiled background, cream text and muted gold headings, large headings, centred text, a basic table and underlined links.
 
 ## Hosting
 
