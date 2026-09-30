@@ -25,8 +25,8 @@ hr { height: 5px; border: 0; border-top: 2px solid #7e91a5; border-bottom: 2px s
 nav { font-size: 15px; font-weight: bold; line-height: 2; }
 nav span { margin: 0 9px; color: #f1eadb; }
 header hr { margin: 14px 0; }
-.picture { max-width: 450px; margin: 34px auto 24px; border: 7px ridge #b6a88e; background: #101e2e; }
-.picture svg { display: block; width: 100%; height: auto; }
+.wave-divider { width: 120px; margin: 28px auto 22px; color: #e6bc73; }
+.wave-divider svg { display: block; width: 100%; height: auto; }
 .hello { color: #b9d5ef; font-size: 22px; font-weight: bold; line-height: 1.5; margin: 22px 0 38px; }
 h2 { font-family: "Times New Roman", serif; font-size: 38px; color: #e6bc73; line-height: 1.2; margin: 24px 0; }
 p { margin: 20px 0; }
@@ -45,11 +45,6 @@ h3 { font-size: 21px; color: #b9d5ef; text-decoration: underline; line-height: 1
 .github-link:visited { color: #604273; }
 .github-link:hover { background: #f4e7cb; }
 .github-link:active { border-style: inset; }
-.thanks { color: #e6bc73; font-size: 24px; font-weight: bold; }
-.badges { margin: 30px 0 24px; }
-.badges span { display: inline-block; vertical-align: middle; width: 88px; padding: 2px; border: 3px outset #9eabb9; background: #ddd6c8; color: #19334f; font: 10px/1.2 "Courier New", monospace; }
-.badges span:nth-child(2) { background: #263e58; color: #f1eadb; }
-.badges span:nth-child(3) { background: #e6bc73; color: #192b40; }
 .updated { font-size: 12px; }
 .skip { position: absolute; top: -100px; left: 8px; padding: 8px; background: #000; }
 .skip:focus { top: 8px; }
@@ -70,7 +65,7 @@ h3 { font-size: 21px; color: #b9d5ef; text-decoration: underline; line-height: 1
 }
 @media print {
   body { background: white; color: black; }
-  h1, h2, h3, .hello, .thanks, th, a, .project-type { color: black; text-shadow: none; }
+  h1, h2, h3, .hello, th, a, .project-type { color: black; text-shadow: none; }
   table { background: white; }
-  .badges, nav, .picture { display: none; }
+  nav, .wave-divider { display: none; }
 }
