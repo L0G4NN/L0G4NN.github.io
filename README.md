@@ -1,6 +1,6 @@
 # Logan's personal website
 
-A simple personal homepage with a homemade, early-2000s school-project style: midnight-blue tiled background, cream text and muted gold headings, large headings, centred text, a basic table and underlined links.
+A simple personal homepage with a homemade, early-2000s school-project style: midnight-blue tiled background, cream text, gold headings, centred text, a basic table and underlined links.
 
 ## Hosting
 
@@ -13,6 +13,10 @@ GitHub Pages serves the root of `main`. No build step, JavaScript or dependencie
 - `background.svg` — repeating background tile
 - `favicon.svg` — browser icon
 - `404.html` — missing-page response
+
+## Content
+
+The homepage leads with current electrical design work, followed by controls experience and concise academic/personal project summaries. Robot and Antichess entries link to their public source repositories.
 
 ## Typography and content
 

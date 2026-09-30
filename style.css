@@ -17,30 +17,26 @@ a { color: #b9d5ef; text-decoration: underline; }
 a:visited { color: #cfbcdf; }
 a:hover { color: #f1eadb; }
 a:focus-visible { outline: 3px solid #f1eadb; outline-offset: 5px; }
-.welcome { font-size: 14px; font-weight: bold; margin: 12px 0 6px; }
-h1 { font-family: "Times New Roman", serif; font-size: clamp(76px, 15vw, 112px); color: #e6bc73; line-height: 1.1; margin: 0; text-shadow: 3px 3px #0c1725; }
-.subtitle { font-family: "Times New Roman", serif; font-size: 36px; font-weight: bold; margin: 3px 0 0; }
+h1 { font-family: "Times New Roman", serif; font-size: clamp(64px, 13vw, 88px); color: #e6bc73; line-height: 1.1; margin: 16px 0 0; text-shadow: 3px 3px #0c1725; }
+h1 span { display: block; color: #f1eadb; font-size: 30px; margin-top: 12px; text-shadow: none; }
 .location { margin: 0 0 24px; font-size: 16px; }
 hr { height: 5px; border: 0; border-top: 2px solid #7e91a5; border-bottom: 2px solid #0c1725; margin: 26px 0; }
 nav { font-size: 15px; font-weight: bold; line-height: 2; }
 nav span { margin: 0 9px; color: #f1eadb; }
 header hr { margin: 14px 0; }
-.wave-divider { width: 120px; margin: 28px auto 22px; color: #e6bc73; }
-.wave-divider svg { display: block; width: 100%; height: auto; }
-.hello { color: #b9d5ef; font-size: 22px; font-weight: bold; line-height: 1.5; margin: 22px 0 38px; }
 h2 { font-family: "Times New Roman", serif; font-size: 38px; color: #e6bc73; line-height: 1.2; margin: 24px 0; }
 p { margin: 20px 0; }
 section { padding: 0 16px 12px; }
 section > p, article { max-width: 650px; margin-left: auto; margin-right: auto; }
+article + article { border-top: 1px solid #63788e; margin-top: 30px; padding-top: 12px; }
+.project-link { font-size: 14px; }
 table { border: 5px ridge #8798a9; border-spacing: 4px; width: 100%; margin: 0 auto 20px; font-size: 15px; background: #122033; }
 caption { padding: 0 0 15px; }
 th, td { border: 1px solid #63788e; padding: 17px 14px; }
 th { width: 39%; color: #b9d5ef; }
 td { text-align: left; }
-.project-intro { margin-bottom: 35px; }
-h3 { font-size: 21px; color: #b9d5ef; text-decoration: underline; line-height: 1.4; margin: 24px 0 6px; }
+h3 { font-size: 21px; color: #b9d5ef; line-height: 1.4; margin: 24px 0 6px; }
 .project-type { font-size: 13px; color: #bac6d3; margin: 0 0 20px; }
-.divider { color: #e6bc73; font-size: 24px; margin: 28px 0; }
 .github-link { display: inline-block; background: #e6d8ba; color: #193a60; font-family: "Times New Roman", serif; font-size: 27px; font-weight: bold; padding: 8px 22px; border: 6px outset #e6d8ba; }
 .github-link:visited { color: #604273; }
 .github-link:hover { background: #f4e7cb; }
@@ -51,21 +47,19 @@ h3 { font-size: 21px; color: #b9d5ef; text-decoration: underline; line-height: 1
 @media (max-width: 520px) {
   body { font-size: 15px; }
   .page { width: calc(100% - 24px); padding-top: 15px; }
-  .welcome { font-size: 11px; }
-  .subtitle { font-size: 29px; }
-  nav { font-size: 13px; }
+  h1 span { font-size: 25px; }
+  nav { font-size: 12px; }
   nav span { margin: 0 3px; }
   section { padding-left: 3px; padding-right: 3px; }
   h2 { font-size: 32px; }
   h3 { font-size: 19px; }
-  .hello { font-size: 19px; }
   table { font-size: 12px; border-spacing: 2px; }
   th, td { padding: 12px 7px; overflow-wrap: anywhere; }
   .github-link { font-size: 24px; padding-inline: 12px; }
 }
 @media print {
   body { background: white; color: black; }
-  h1, h2, h3, .hello, th, a, .project-type { color: black; text-shadow: none; }
+  h1, h1 span, h2, h3, th, a, .project-type { color: black; text-shadow: none; }
   table { background: white; }
-  nav, .wave-divider { display: none; }
+  nav { display: none; }
 }

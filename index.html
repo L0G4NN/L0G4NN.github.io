@@ -3,93 +3,87 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Logan's personal website. Electrical engineering, electronics and projects.">
+  <meta name="description" content="Logan — graduate electrical engineer in Scotland. Electrical design, industrial controls and personal projects.">
   <meta name="theme-color" content="#18283b">
-  <title>Welcome to Logan's Website!</title>
+  <title>Logan — Electrical Engineer</title>
   <link rel="icon" href="favicon.svg?v=blue1" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=20260930-clean1">
+  <link rel="stylesheet" href="style.css?v=20260930-sol1">
 </head>
 <body id="top">
   <a class="skip" href="#about">Skip to content</a>
   <div class="page">
     <header>
-      <p class="welcome">*** WELCOME TO MY WEBSITE ***</p>
-      <h1>Logan</h1>
-      <p class="subtitle">Electrical Engineer</p>
+      <h1>Logan <span>Electrical Engineer</span></h1>
       <p class="location">Scotland</p>
       <hr>
       <nav aria-label="Main navigation">
-        <a href="#about">About me</a> <span>|</span>
-        <a href="#work">My work</a> <span>|</span>
+        <a href="#about">Electrical design</a> <span>|</span>
+        <a href="#experience">Background</a> <span>|</span>
         <a href="#projects">Projects</a> <span>|</span>
         <a href="#links">Links</a>
       </nav>
       <hr>
     </header>
     <main>
-      <div class="wave-divider" aria-hidden="true">
-        <svg viewBox="0 0 160 32" focusable="false">
-          <path d="M0 16H24C34 16 34 2 44 2S54 30 64 30S74 2 84 2S94 30 104 30S114 16 124 16H160" fill="none" stroke="currentColor" stroke-width="2"/>
-        </svg>
-      </div>
-      <p class="hello">Hello, I'm Logan.<br>Thanks for visiting my homepage!</p>
       <section id="about">
-        <h2>A bit about me</h2>
-        <p>I'm a graduate electrical engineer based in Scotland. I work on electrical building services and infrastructure, and have a BEng (Hons) in Electrical &amp; Electronic Engineering.</p>
-        <p>I previously worked in industrial refrigeration controls, including PLC programming, operator interfaces, plant communications, testing and commissioning support.</p>
-        <p>This page is a place for my engineering work and electronics projects.</p>
-      </section>
-      <hr>
-      <section id="work">
-        <h2>What I work on</h2>
+        <h2>Electrical design</h2>
+        <p>I'm a graduate electrical engineer working on electrical building services and infrastructure. My work includes cable calculations, lighting design, MV and LV drawings, earthing and arc-flash studies.</p>
         <table>
-          <caption>Electrical engineering &amp; electronics</caption>
+          <caption>Current work</caption>
           <tbody>
-            <tr><th scope="row">Power &amp; buildings</th><td>MV / LV drawings<br>Cable calculations<br>Lighting design<br>Earthing &amp; arc flash</td></tr>
-            <tr><th scope="row">Industrial controls</th><td>PLC programming<br>HMI / SCADA<br>Modbus &amp; OPC<br>Commissioning support</td></tr>
-            <tr><th scope="row">Electronics &amp; code</th><td>ESP32 &amp; STM32<br>C / C++ &amp; FreeRTOS<br>PCB design<br>Sensors &amp; I²C</td></tr>
+            <tr><th scope="row">Distribution</th><td>MV / LV drawings<br>Cable calculations</td></tr>
+            <tr><th scope="row">Lighting</th><td>Lighting layouts<br>Illuminance calculations</td></tr>
+            <tr><th scope="row">Safety</th><td>Earthing<br>Arc-flash studies</td></tr>
           </tbody>
         </table>
       </section>
       <hr>
+      <section id="experience">
+        <h2>Background</h2>
+        <p>I have a BEng (Hons) in Electrical &amp; Electronic Engineering. Before moving into electrical design, I worked in industrial refrigeration controls.</p>
+        <p>That experience covered PLC programming, HMI / SCADA, plant communications using Modbus and OPC, testing and commissioning support.</p>
+      </section>
+      <hr>
       <section id="projects">
-        <h2>My projects</h2>
-        <p class="project-intro">Some things I've worked on at home and during my degree.</p>
+        <h2>Projects</h2>
         <article>
           <h3>Passive radar for Glasgow airspace</h3>
-          <p class="project-type">Academic dissertation</p>
-          <p>A feasibility study into using an existing over-the-horizon transmission to detect aircraft near Glasgow. I looked at propagation, radar geometry, link budgets, matched filtering and pulse integration.</p>
-          <p>This was a study of a passive bistatic radar concept, rather than an operational tracking system.</p>
+          <p class="project-type">Academic dissertation · Radar &amp; signal processing</p>
+          <p>I assessed whether an existing over-the-horizon transmission could be used to detect aircraft near Glasgow. The study covered propagation, bistatic geometry, link budgets, matched filtering and pulse integration.</p>
+          <p>It was a feasibility study, rather than an operational radar system.</p>
         </article>
-        <div class="divider" aria-hidden="true">* * *</div>
         <article>
           <h3>Autonomous collection robot</h3>
-          <p class="project-type">Academic project</p>
-          <p>An ESP32-based robot with ultrasonic sensors, steering, motor control and a magnetic collection mechanism. FreeRTOS and a state machine coordinated its movements, with a separate ESP32-S3 camera unit communicating over I²C.</p>
+          <p class="project-type">Academic project · ESP32 / C / FreeRTOS</p>
+          <p>An ESP32 robot combining ultrasonic sensing, steering, motor control and magnetic collection. My work covered embedded control, a FreeRTOS state machine and I²C communication with a separate ESP32-S3 camera unit.</p>
+          <p class="project-link"><a href="https://github.com/L0G4NN/EE579-Project">Robot source code on GitHub</a></p>
         </article>
-        <div class="divider" aria-hidden="true">* * *</div>
         <article>
           <h3>FPGA fractal visualisation</h3>
-          <p class="project-type">Academic project</p>
-          <p>Fractal computation in programmable logic, using Python and Jupyter to control and explore the results.</p>
+          <p class="project-type">Academic project · FPGA / Python / Jupyter</p>
+          <p>I explored fractal computation in programmable logic, with a Python and Jupyter interface for controlling and viewing the results.</p>
         </article>
-        <div class="divider" aria-hidden="true">* * *</div>
+        <article>
+          <h3>Antichess</h3>
+          <p class="project-type">Academic project · C++ / Qt</p>
+          <p>A desktop implementation of the antichess variant, developed in C++ with Qt.</p>
+          <p class="project-link"><a href="https://github.com/L0G4NN/EE273Project">Antichess source code on GitHub</a></p>
+        </article>
         <article>
           <h3>Model railway lighting controller</h3>
-          <p class="project-type">Personal project — in development</p>
-          <p>A small STM32 controller for each model building, powered from a shared 5 V supply. The design uses 3.3 V regulation, MOSFET LED switching, local mode selection and an RS-485 bus.</p>
+          <p class="project-type">Personal project · STM32 / PCB design · In development</p>
+          <p>I'm designing a small controller for each model building, using a shared 5 V supply. It combines 3.3 V regulation, MOSFET LED switching, local mode selection and an RS-485 bus.</p>
         </article>
       </section>
       <hr>
       <section id="interests">
-        <h2>Other interests</h2>
+        <h2>Outside work</h2>
         <p>Motorsport, rockets, model railways and PC gaming.</p>
       </section>
       <hr>
       <section id="links">
-        <h2>Links</h2>
-        <p><a class="github-link" href="https://github.com/L0G4NN">Visit my GitHub page</a></p>
-        <p>Code, experiments and the files for this website.</p>
+        <h2>Elsewhere</h2>
+        <p><a class="github-link" href="https://github.com/L0G4NN">My GitHub profile</a></p>
       </section>
     </main>
     <footer>
