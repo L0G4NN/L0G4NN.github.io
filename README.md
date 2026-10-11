@@ -1,6 +1,6 @@
 # Logan's personal website
 
-A simple personal homepage with a homemade, early-2000s school-project style: midnight-blue tiled background, cream text, gold headings, centred text, a basic table and underlined links.
+A plain HTML and CSS personal homepage laid out like an engineering drawing sheet, with a ruled frame, title block and labelled content sections. The system colour preference selects light drafting-paper or dark blueprint styling.
 
 ## Hosting
 
@@ -10,7 +10,7 @@ GitHub Pages serves the root of `main`. No build step, JavaScript or dependencie
 
 - `index.html` — homepage content
 - `style.css` — layout, typography and small-screen adjustments
-- `background.svg` — repeating background tile
+- `background.svg` — legacy background tile retained from the previous design
 - `favicon.svg` — browser icon
 - `404.html` — missing-page response
 
@@ -20,6 +20,6 @@ The homepage leads with current electrical design work, followed by controls exp
 
 ## Typography and content
 
-The body prefers locally installed ABC Areal Mono or Areal Mono, then Courier New. No commercial font files are bundled. Large serif headings are intentional.
+The body prefers locally installed ABC Areal Mono or Areal Mono, then system monospace fonts. No commercial font files are bundled. Serif headings, responsive layouts, keyboard focus indicators and reduced-motion support are included.
 
 Public copy uses Logan's first name only and omits employer and university names. Academic studies and projects in development are labelled accordingly.

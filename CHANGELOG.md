@@ -1,5 +1,12 @@
 # Website change log
 
+## 11 October 2026 — engineering drawing layout
+
+- Replaced the homepage HTML and stylesheet with Logan's supplied files.
+- Added a ruled sheet frame, title block, labelled sections and compact project metadata.
+- Added automatic light/dark styling, responsive layouts and reduced-motion support.
+- Kept the existing GitHub Pages hosting configuration and favicon.
+
 ## 30 September 2026 — content and hierarchy
 
 - Simplified the header to Logan, Electrical Engineer and Scotland.
