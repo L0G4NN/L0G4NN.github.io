@@ -1,5 +1,13 @@
 # Website change log
 
+## 12 October 2026 — retro-futuristic engineering archive
+
+- Redesigned the site around a TVA-inspired cream, burnt-orange and dark-brown palette.
+- Added original CSS/SVG console artwork, amber screen details, stamped labels and numbered sections.
+- Preserved the portfolio copy and source links; organised projects into native expandable records.
+- Updated the favicon and responsive, keyboard, reduced-motion and forced-colour styling.
+- Kept the site dependency-free and the existing GitHub Pages hosting configuration.
+
 ## 11 October 2026 — engineering drawing layout
 
 - Replaced the homepage HTML and stylesheet with Logan's supplied files.
